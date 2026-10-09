@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "edgerunners": {
+      "command": "python3",
+      "args": [
+        "/path/edgerunners_mcp.py",
+        "--server",
+        "http://IPADDRESS:8888"
+      ],
+      "description": "Edgerunners v6.0 - Advanced Cybersecurity Automation Platform. Turn off alwaysAllow if you dont want autonomous execution!",
+      "timeout": 300,
+      "alwaysAllow": []
+    }
+  }
+}
